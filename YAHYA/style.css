@@ -1,0 +1,45 @@
+/* CSS HERE */
+.topbar p{
+    font-size: 16px;
+    color: #000000;
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px;
+}
+.my-navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+    background-color: #000000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 3px;
+    padding: 10px;
+}
+.my-navbar ul li a{
+    padding-top: 10px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: bebas;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+}
+.my-navbar ul li a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.product1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.product1 img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
